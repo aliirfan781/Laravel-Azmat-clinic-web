@@ -1,0 +1,2007 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Roboto:wght@700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+/* Navigation Bar CSS Starts here */
+.navbar {
+    padding: 0rem 6rem 0rem 6rem;
+    display: flex;
+    width: 100%;
+    height: 6rem;
+    z-index: 1;
+    position: fixed;
+    background-color: #f5f5f5;
+}
+.logo {
+    font-family: "Baloo Bhai 2", cursive;
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: #4abdac;
+}
+.logo span {
+    color: #025464;
+}
+.logo p {
+    margin-bottom: 0rem;
+}
+.pages {
+    margin: 0rem auto;
+}
+.pages ul {
+    margin-bottom: 0rem;
+}
+.pages li {
+    list-style: none;
+}
+.pages li a {
+    padding: 0rem 1.2rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+}
+.pages li a:hover {
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.authentication {
+    font-size: 2.8rem;
+    font-family: "Baloo Bhai 2", cursive;
+    font-weight: 30rem;
+    position: relative;
+    color: #4abdac;
+    top: 1rem;
+}
+.navbar #bars-icon {
+    font-size: 2.4rem;
+    display: none;
+}
+
+/* Navigation Bar CSS ends here */
+
+/* Footer CSS starts here*/
+.footer {
+    width: 100%;
+    height: 24rem;
+    background-color: #025464;
+}
+.footer p {
+    text-align: center;
+    color: #f5f5f5;
+    padding-top: 2rem;
+    font-size: 1.2rem;
+}
+
+/* Footer ends here */
+
+/* Home Page starts here */
+
+/* landing area */
+.landing_page {
+    width: 100%;
+    height: 57.2rem;
+    background-image: url(/img/bg2.png);
+    background-size: cover;
+    /* background-color: #d2e9e9; */
+}
+.hero_text h2 {
+    /* font-family: "Baloo Bhai 2", cursive;
+  font-family: "Roboto", sans-serif; */
+    font-size: 5rem;
+    color: #4abdac;
+    padding: 22rem 0rem 0rem 12rem;
+    margin-bottom: 0rem;
+    font-weight: 500;
+}
+.under_hero {
+    font-family: "Baloo Bhai 2", cursive;
+    font-size: 2.4rem;
+    color: #025464;
+    letter-spacing: 0.3rem;
+    padding: 0rem 0rem 0rem 12rem;
+    animation: typing 8s, cursor 0.4s step-end infinite alternate;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+.landing_page a {
+    margin-left: 12rem;
+    padding: 1rem;
+    background-color: #025464;
+    border: none;
+    font-size: 1.6rem;
+}
+.landing_page a:hover {
+    background-color: #4abdac;
+}
+.landing_page a:active {
+    background-color: #4abdac;
+}
+
+/* Landing area ends */
+
+/* Services */
+
+.services .title {
+    text-align: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    padding: 0.8rem 0rem;
+    font-size: 2.4rem;
+    font-family: "Baloo Bhai 2", cursive;
+    color: #4abdac;
+    width: 22rem;
+    margin: 3rem auto;
+}
+.services .content .card {
+    z-index: -1;
+    width: 25rem;
+    height: 26rem;
+    margin: 3rem;
+}
+.services .content {
+    margin: 3.2rem 10rem;
+    font-size: 1.4rem;
+}
+.card-image-top {
+    height: 20rem;
+}
+
+/* Services end here */
+
+/* Horizontal line under services section */
+
+.line {
+    height: 0.1rem;
+    background-color: #c8c2bc;
+    margin: 1rem 16rem;
+}
+
+/* Blogs Section starts here */
+
+.blogs .title {
+    text-align: center;
+    width: 22rem;
+    margin: 3rem auto;
+    background-color: #f5f5f5;
+    padding: 0.8rem 0rem;
+    font-size: 2.4rem;
+    font-family: "Baloo Bhai 2", cursive;
+    color: #4abdac;
+}
+.blogs .content .image img {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 0.5rem;
+}
+.blogs .content {
+    margin: 3.2rem 10rem;
+}
+.blogs .content .blog-control {
+    margin-bottom: 4rem;
+}
+.blogs .content .blog {
+    display: flex;
+}
+.blogs .content .blog-content {
+    padding-left: 2.4rem;
+}
+.blogs .content .blog-content .blog-title {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #025464;
+}
+.blogs .content .blog-content .blog-article {
+    padding-top: 1rem;
+    height: 18.6rem;
+    font-size: 1.4rem;
+    display: block; /* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 18rem;
+    line-height: 2.4rem;
+}
+.blogs .content .blog-content .btn {
+    background-color: #4abdac;
+    border: none;
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+    font-size: 1.6rem;
+}
+/* Blogs section ends here */
+
+/* Clinic Schedule  */
+.schedule {
+    margin-bottom: 10rem;
+}
+.schedule .title {
+    text-align: center;
+    width: 22rem;
+    margin: 3rem auto;
+    background-color: #f5f5f5;
+    padding: 0.8rem 0rem;
+    font-size: 2.4rem;
+    font-family: "Baloo Bhai 2", cursive;
+    color: #4abdac;
+}
+.schedule .table {
+    width: 91.2rem;
+    margin: 1rem 10rem;
+    padding-right: 10rem;
+}
+.schedule .table thead {
+    background-color: #4abdac;
+    font-size: 1.4rem;
+    line-height: 3.5rem;
+}
+.schedule .table tbody {
+    background-color: #f5f5f5;
+    font-size: 1.4rem;
+    line-height: 3.5rem;
+}
+
+/* End Clinic Schedule */
+
+/* Services Page stylesheet starts here */
+
+.services-page .content {
+    padding: 10rem 0rem 10rem 4rem;
+    font-size: 1.4rem;
+
+    /* width: 22rem; */
+    display: flex;
+}
+
+.services-page .content .card {
+    z-index: -1;
+    width: 25rem;
+    height: 28rem;
+    margin: 3rem 4rem;
+}
+.services-page .card-image-top {
+    height: 20rem;
+}
+
+/* Services Page stylesheet ends here */
+
+/* Blogs page stylesheet starts here */
+.blog-page .title {
+    text-align: center;
+    margin: 3.4rem 440rem;
+    background-color: #f5f5f5;
+    padding: 8rem 0rem;
+    font-size: 24rem;
+    font-family: "Baloo Bhai 2", cursive;
+    color: #4abdac;
+}
+.blogs-page .content .image img {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 0.5rem;
+}
+.blogs-page .content {
+    padding: 13.2rem 10rem;
+}
+.blogs-page .content .blog-control {
+    margin-bottom: 4rem;
+}
+.blogs-page .content .blog {
+    display: flex;
+}
+.blogs-page .content .blog-content {
+    padding-left: 2.4rem;
+}
+.blogs-page .content .blog-content .blog-title {
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #025464;
+}
+.blogs-page .content .blog-content .blog-article {
+    padding-top: 1rem;
+    height: 18.6rem;
+    font-size: 1.4rem;
+    display: block; /* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 18rem;
+    line-height: 2.4rem;
+}
+.blogs-page .content .blog-content .btn {
+    background-color: #4abdac;
+    border: none;
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+    font-size: 1.6rem;
+}
+
+/* Blogs page stylesheet ends here */
+
+/* About page styling starts here */
+.about-page {
+    padding: 10rem 16rem;
+}
+.about-page .card {
+    background-color: #f5f5f5;
+    align-items: center;
+    padding-top: 5rem;
+}
+.about-page .card img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+.about-page .card .name {
+    padding-top: 3rem;
+}
+
+.about-page .card .name h1 {
+    color: #025464;
+    font-size: 4rem;
+}
+.about-page .card h3 {
+    font-size: 2rem;
+}
+.about-page .card .info {
+    padding: 3rem 0rem;
+}
+.about-page .card p {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+/* About page styling ends here */
+
+/* Contact page styling start here */
+
+.contact-page {
+    padding: 10rem 16rem;
+}
+.contact-page .card {
+    background-color: #f5f5f5;
+    align-items: center;
+    padding-top: 5rem;
+}
+/* Contact page styling ends here */
+
+/* Admin Side Stylesheet starts here */
+
+/* Admin Dashboard Styling */
+.admin .main {
+    display: flex;
+}
+.admin .top {
+    height: 6rem;
+    background-color: #025464;
+}
+.admin .top h2 {
+    color: #f5f5f5;
+    line-height: 6rem;
+    text-align: center;
+}
+.admin .main .aside {
+    width: 20%;
+    background-color: #c8c2bc;
+}
+.admin .aside ul {
+    padding-left: 0rem;
+    margin-bottom: 0rem;
+}
+.admin .aside ul li {
+    list-style: none;
+}
+.admin .aside ul li a {
+    display: block;
+    line-height: 6rem;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 1.4rem;
+}
+.page-section {
+    width: 80%;
+}
+
+/* Admin dashboard styling ends here */
+
+/* Admin Services Page styling starts here */
+
+.admin-services {
+    margin: 4rem 4rem;
+}
+
+.admin-services .content {
+    display: grid;
+}
+.admin-services .content .card {
+    width: 24rem;
+    height: 28rem;
+    margin: 3rem 3rem;
+}
+
+.admin-services .add-button a {
+    font-size: 1.4rem;
+    background-color: #025464;
+    margin-bottom: 2rem;
+}
+.admin-services .content .card-body {
+    flex: none;
+}
+.admin-services .content .card-text {
+    font-size: 1.4rem;
+}
+.admin-services .content .control-buttons {
+    margin: 0rem 1rem;
+}
+.admin-services .content .control-buttons a {
+    font-size: 1.4rem;
+    background-color: #4abdac;
+    border: none;
+}
+/* Admin Services Page styling ends here */
+
+/* Admin Blogs Page styling starts here */
+.admin-blogs {
+    margin: 4rem 4rem;
+}
+.admin-blogs .content .blog-control {
+    margin-bottom: 4rem;
+}
+.admin-blogs .add-button a {
+    font-size: 1.4rem;
+    background-color: #025464;
+    margin-bottom: 2rem;
+}
+
+.admin-blogs .content .control-buttons {
+    margin-top: 1rem;
+    align-items: center;
+}
+.admin-blogs .content .control-buttons a {
+    font-size: 1.4rem;
+    background-color: #4abdac;
+    border: none;
+}
+
+.admin-blogs .content .image img {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 0.5rem;
+}
+
+.admin-blogs .content .blog {
+    display: flex;
+}
+.admin-blogs .content .blog-content {
+    padding-left: 2.4rem;
+}
+.admin-blogs .content .blog-content .blog-title {
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #025464;
+}
+.admin-blogs .content .blog-content .blog-article {
+    padding-top: 1rem;
+    height: 18.6rem;
+    font-size: 1.4rem;
+    display: block; /* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 18rem;
+    line-height: 2.4rem;
+}
+.admin-blogs .content .blog-content .btn {
+    background-color: #4abdac;
+    border: none;
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+    font-size: 1.6rem;
+}
+/* Admin Blogs Page styling ends here */
+
+/* Add service form page styling starts here */
+
+.add-service-form {
+    margin: 3rem;
+}
+.add-service-form .form-control {
+    font-size: 1.6rem;
+}
+.add-service-form #image {
+    background-color: #4abdac;
+}
+.add-service-form .btn {
+    font-size: 1.6rem;
+    background-color: #025464;
+}
+/* Add service form page styling ends here */
+
+/* Add Blog form page styling starts here */
+
+.add-blog-form {
+    margin: 3rem;
+}
+.add-blog-form .form-control {
+    font-size: 1.6rem;
+}
+.add-blog-form #image {
+    background-color: #4abdac;
+}
+.add-blog-form .btn {
+    font-size: 1.6rem;
+    background-color: #025464;
+}
+
+/* Add Blog form page styling ends here */
+
+/* Edit Blog form styling starts here */
+
+.edit-blog-form {
+    margin: 3rem;
+}
+.edit-blog-form .form-control {
+    font-size: 1.6rem;
+}
+.edit-blog-form #image {
+    background-color: #4abdac;
+}
+.edit-blog-form .btn {
+    font-size: 1.6rem;
+    background-color: #025464;
+}
+
+/* Edit Blog form styling ends here */
+
+/* Admin about page styling starts here */
+
+.admin-about-page {
+    padding: 10rem 16rem;
+}
+.admin-about-page .card {
+    background-color: #f5f5f5;
+    align-items: center;
+    padding-top: 5rem;
+}
+.admin-about-page .button a {
+    font-size: 1.4rem;
+    margin-left: 40rem;
+}
+.admin-about-page .card img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+.admin-about-page .card .name {
+    padding-top: 3rem;
+}
+
+.admin-about-page .card .name h1 {
+    color: #025464;
+    font-size: 4rem;
+}
+.admin-about-page .card h3 {
+    font-size: 2rem;
+}
+.admin-about-page .card .info {
+    padding: 3rem 0rem;
+}
+.admin-about-page .card p {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+/* Admin about page styling starts here */
+
+/* Add about page styling starts here */
+
+.add-about-form {
+    font-size: 1.4rem;
+    margin: 3rem;
+}
+.add-about-form input {
+    font-size: 1.4rem;
+}
+
+/* Add about page styling ends here */
+
+/* Appointment Booking Page styling starts here */
+
+.book-appointment {
+    padding: 8rem 10rem;
+    width: 80rem;
+    margin: auto;
+}
+.book-appointment h1 {
+    text-align: center;
+}
+.book-appointment form label {
+    font-size: 1.6rem;
+}
+.book-appointment form input {
+    font-size: 1.6rem;
+}
+.book-appointment form textarea {
+    font-size: 1.6rem;
+}
+.book-appointment form button {
+    font-size: 1.6rem;
+    background-color: #025464;
+}
+/* Appointment Booking Page styling ends here */
+
+/* Appointment Confirmation page styling starts here */
+
+.appointment-confirmation {
+    padding: 8rem 10rem;
+}
+.appointment-confirmation .card {
+    width: 60rem;
+    margin: 1rem auto;
+    padding-top: 3rem;
+    background-color: #f5f5f5;
+}
+.appointment-confirmation h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #025464;
+}
+.appointment-confirmation h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: #00dfa2;
+}
+.appointment-confirmation p {
+    text-align: center;
+    font-size: 1.8rem;
+}
+.appointment-confirmation p span {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    background-color: #97feed;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+}
+/* Appointment Confirmation Page styling ends here */
+
+/* RESPONSIVENESS OF THE WEBSITE */
+
+/* For Mobile screens */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html {
+        font-size: 62.5%;
+    }
+    /* Navigation Bar CSS Starts here */
+    .navbar {
+        padding: 0rem 2rem 0rem 4rem;
+        display: flex;
+        width: 100%;
+        height: 6rem;
+        z-index: 1;
+        position: fixed;
+        background-color: #f5f5f5;
+    }
+    .logo {
+        font-family: "Baloo Bhai 2", cursive;
+        font-size: 3.2rem;
+        font-weight: 600;
+        color: #4abdac;
+    }
+    .logo span {
+        color: #025464;
+    }
+    .logo p {
+        margin-bottom: 0rem;
+    }
+    .pages {
+        margin: 0rem auto;
+        display: none;
+    }
+    .pages ul {
+        margin-bottom: 0rem;
+    }
+    .pages li {
+        list-style: none;
+    }
+    .pages li a {
+        padding: 0rem 1.2rem;
+        text-decoration: none;
+        color: black;
+        font-size: 1.6rem;
+    }
+    .pages li a:hover {
+        font-weight: 500;
+        font-size: 1.8rem;
+    }
+
+    .authentication {
+        font-size: 2.8rem;
+        font-family: "Baloo Bhai 2", cursive;
+        font-weight: 30rem;
+        position: relative;
+        color: #4abdac;
+        top: 1rem;
+    }
+    .navbar #bars-icon {
+        display: block;
+        margin: auto 1rem;
+    }
+
+    /* Navigation Bar CSS ends here */
+
+    /* Footer CSS starts here*/
+    .footer {
+        width: 100%;
+        height: 24rem;
+        background-color: #025464;
+    }
+    .footer p {
+        text-align: center;
+        color: #f5f5f5;
+        padding-top: 2rem;
+        font-size: 1.2rem;
+    }
+
+    /* Footer ends here */
+
+    /* Home Page starts here */
+
+    /* landing area */
+    .landing_page {
+        width: 100%;
+        height: 100vh;
+        background-image: url(/img/dr_bg.jpg);
+        background-size: cover;
+        /* background-color: #d2e9e9; */
+    }
+    .hero_text h2 span {
+        display: block;
+        color: #025464;
+    }
+    .hero_text h2 {
+        /* font-family: "Baloo Bhai 2", cursive;
+      font-family: "Roboto", sans-serif; */
+        font-size: 3.5rem;
+        color: #4abdac;
+        padding: 12rem 0rem 0rem 4rem;
+        margin-bottom: 0rem;
+        font-weight: 500;
+    }
+    .under_hero {
+        font-family: "Baloo Bhai 2", cursive;
+        font-size: 2.4rem;
+        color: #025464;
+        letter-spacing: 0.3rem;
+        padding: 0rem 0rem 0rem 4rem;
+        animation: typing 8s, cursor 0.4s step-end infinite alternate;
+
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .under_hero span {
+        display: block;
+    }
+    @keyframes cursor {
+        50% {
+            border-color: transparent;
+        }
+    }
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+    }
+    .landing_page a {
+        margin-left: 4rem;
+        padding: 1rem;
+        background-color: #025464;
+        border: none;
+        font-size: 1.6rem;
+    }
+    .landing_page a:hover {
+        background-color: #4abdac;
+    }
+    .landing_page a:active {
+        background-color: #4abdac;
+    }
+
+    /* Landing area ends */
+
+    /* Services */
+
+    .services .title {
+        text-align: center;
+        justify-content: center;
+        background-color: #f5f5f5;
+        padding: 0.8rem 0rem;
+        font-size: 2.4rem;
+        font-family: "Baloo Bhai 2", cursive;
+        color: #4abdac;
+        width: 22rem;
+        margin: 3rem auto;
+    }
+    .services .content .card {
+        z-index: -1;
+        width: 25rem;
+        height: 26rem;
+        margin: 3rem;
+        display: block;
+        
+    }
+    .services .content {
+        margin: 3.2rem 10rem;
+        font-size: 1.4rem;
+    }
+    .card-image-top {
+        height: 20rem;
+    }
+
+    /* Services end here */
+
+    /* Horizontal line under services section */
+
+    .line {
+        height: 0.1rem;
+        background-color: #c8c2bc;
+        margin: 1rem 16rem;
+    }
+
+    /* Blogs Section starts here */
+
+    .blogs .title {
+        text-align: center;
+        width: 22rem;
+        margin: 3rem auto;
+        background-color: #f5f5f5;
+        padding: 0.8rem 0rem;
+        font-size: 2.4rem;
+        font-family: "Baloo Bhai 2", cursive;
+        color: #4abdac;
+    }
+    .blogs .content .image img {
+        width: 25rem;
+        height: 25rem;
+        border-radius: 0.5rem;
+    }
+    .blogs .content {
+        margin: 3.2rem 10rem;
+    }
+    .blogs .content .blog-control {
+        margin-bottom: 4rem;
+    }
+    .blogs .content .blog {
+        display: flex;
+    }
+    .blogs .content .blog-content {
+        padding-left: 2.4rem;
+    }
+    .blogs .content .blog-content .blog-title {
+        font-size: 2.2rem;
+        font-weight: 500;
+        color: #025464;
+    }
+    .blogs .content .blog-content .blog-article {
+        padding-top: 1rem;
+        height: 18.6rem;
+        font-size: 1.4rem;
+        display: block; /* or inline-block */
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        overflow: hidden;
+        max-height: 18rem;
+        line-height: 2.4rem;
+    }
+    .blogs .content .blog-content .btn {
+        background-color: #4abdac;
+        border: none;
+        padding-left: 2.8rem;
+        padding-right: 2.8rem;
+        font-size: 1.6rem;
+    }
+    /* Blogs section ends here */
+
+    /* Clinic Schedule  */
+    .schedule {
+        margin-bottom: 10rem;
+    }
+    .schedule .title {
+        text-align: center;
+        width: 22rem;
+        margin: 3rem auto;
+        background-color: #f5f5f5;
+        padding: 0.8rem 0rem;
+        font-size: 2.4rem;
+        font-family: "Baloo Bhai 2", cursive;
+        color: #4abdac;
+    }
+    .schedule .table {
+        width: 91.2rem;
+        margin: 1rem 10rem;
+        padding-right: 10rem;
+    }
+    .schedule .table thead {
+        background-color: #4abdac;
+        font-size: 1.4rem;
+        line-height: 3.5rem;
+    }
+    .schedule .table tbody {
+        background-color: #f5f5f5;
+        font-size: 1.4rem;
+        line-height: 3.5rem;
+    }
+}
+
+/* For ipads and Tabs */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html {
+        font-size: 62.5%;
+    }
+    /* Navigation Bar CSS Starts here */
+    .navbar {
+        padding: 0rem 6rem 0rem 6rem;
+        display: flex;
+        width: 100%;
+        height: 6rem;
+        z-index: 1;
+        position: fixed;
+        background-color: #f5f5f5;
+    }
+    .logo {
+        font-family: "Baloo Bhai 2", cursive;
+        font-size: 3.2rem;
+        font-weight: 600;
+        color: #4abdac;
+    }
+    .logo span {
+        color: #025464;
+    }
+    .logo p {
+        margin-bottom: 0rem;
+    }
+    .pages {
+        margin: 0rem auto;
+    }
+    .pages ul {
+        margin-bottom: 0rem;
+    }
+    .pages li {
+        list-style: none;
+    }
+    .pages li a {
+        padding: 0rem 1.2rem;
+        text-decoration: none;
+        color: black;
+        font-size: 1.6rem;
+    }
+    .pages li a:hover {
+        font-weight: 500;
+        font-size: 1.8rem;
+    }
+
+    .authentication {
+        font-size: 2.8rem;
+        font-family: "Baloo Bhai 2", cursive;
+        font-weight: 30rem;
+        position: relative;
+        color: #4abdac;
+        top: 1rem;
+    }
+    .navbar .bars {
+        display: none;
+    }
+    .bars-icon {
+        font-size: 2rem;
+        color: #025464;
+    }
+
+    /* Navigation Bar CSS ends here */
+
+    /* Footer CSS starts here*/
+    .footer {
+        width: 100%;
+        height: 24rem;
+        background-color: #025464;
+    }
+    .footer p {
+        text-align: center;
+        color: #f5f5f5;
+        padding-top: 2rem;
+        font-size: 1.2rem;
+    }
+
+    /* Footer ends here */
+
+    /* Home Page starts here */
+
+    /* landing area */
+    .landing_page {
+        width: 100%;
+        height: 57.2rem;
+        background-image: url(/img/bg2.png);
+        background-size: cover;
+        /* background-color: #d2e9e9; */
+    }
+    .hero_text h2 {
+        /* font-family: "Baloo Bhai 2", cursive;
+      font-family: "Roboto", sans-serif; */
+        font-size: 5rem;
+        color: #4abdac;
+        padding: 22rem 0rem 0rem 12rem;
+        margin-bottom: 0rem;
+        font-weight: 500;
+    }
+    .under_hero {
+        font-family: "Baloo Bhai 2", cursive;
+        font-size: 2.4rem;
+        color: #025464;
+        letter-spacing: 0.3rem;
+        padding: 0rem 0rem 0rem 12rem;
+        animation: typing 8s, cursor 0.4s step-end infinite alternate;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    @keyframes cursor {
+        50% {
+            border-color: transparent;
+        }
+    }
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+    }
+    .landing_page a {
+        margin-left: 12rem;
+        padding: 1rem;
+        background-color: #025464;
+        border: none;
+        font-size: 1.6rem;
+    }
+    .landing_page a:hover {
+        background-color: #4abdac;
+    }
+    .landing_page a:active {
+        background-color: #4abdac;
+    }
+
+    /* Landing area ends */
+
+    /* Services */
+
+    .services .title {
+        text-align: center;
+        justify-content: center;
+        background-color: #f5f5f5;
+        padding: 0.8rem 0rem;
+        font-size: 2.4rem;
+        font-family: "Baloo Bhai 2", cursive;
+        color: #4abdac;
+        width: 22rem;
+        margin: 3rem auto;
+    }
+    .services .content .card {
+        z-index: -1;
+        width: 25rem;
+        height: 26rem;
+        margin: 3rem;
+    }
+    .services .content {
+        margin: 3.2rem 10rem;
+        font-size: 1.4rem;
+    }
+    .card-image-top {
+        height: 20rem;
+    }
+
+    /* Services end here */
+
+    /* Horizontal line under services section */
+
+    .line {
+        height: 0.1rem;
+        background-color: #c8c2bc;
+        margin: 1rem 16rem;
+    }
+
+    /* Blogs Section starts here */
+
+    .blogs .title {
+        text-align: center;
+        width: 22rem;
+        margin: 3rem auto;
+        background-color: #f5f5f5;
+        padding: 0.8rem 0rem;
+        font-size: 2.4rem;
+        font-family: "Baloo Bhai 2", cursive;
+        color: #4abdac;
+    }
+    .blogs .content .image img {
+        width: 25rem;
+        height: 25rem;
+        border-radius: 0.5rem;
+    }
+    .blogs .content {
+        margin: 3.2rem 10rem;
+    }
+    .blogs .content .blog-control {
+        margin-bottom: 4rem;
+    }
+    .blogs .content .blog {
+        display: flex;
+    }
+    .blogs .content .blog-content {
+        padding-left: 2.4rem;
+    }
+    .blogs .content .blog-content .blog-title {
+        font-size: 2.2rem;
+        font-weight: 500;
+        color: #025464;
+    }
+    .blogs .content .blog-content .blog-article {
+        padding-top: 1rem;
+        height: 18.6rem;
+        font-size: 1.4rem;
+        display: block; /* or inline-block */
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        overflow: hidden;
+        max-height: 18rem;
+        line-height: 2.4rem;
+    }
+    .blogs .content .blog-content .btn {
+        background-color: #4abdac;
+        border: none;
+        padding-left: 2.8rem;
+        padding-right: 2.8rem;
+        font-size: 1.6rem;
+    }
+    /* Blogs section ends here */
+
+    /* Clinic Schedule  */
+    .schedule {
+        margin-bottom: 10rem;
+    }
+    .schedule .title {
+        text-align: center;
+        width: 22rem;
+        margin: 3rem auto;
+        background-color: #f5f5f5;
+        padding: 0.8rem 0rem;
+        font-size: 2.4rem;
+        font-family: "Baloo Bhai 2", cursive;
+        color: #4abdac;
+    }
+    .schedule .table {
+        width: 91.2rem;
+        margin: 1rem 10rem;
+        padding-right: 10rem;
+    }
+    .schedule .table thead {
+        background-color: #4abdac;
+        font-size: 1.4rem;
+        line-height: 3.5rem;
+    }
+    .schedule .table tbody {
+        background-color: #f5f5f5;
+        font-size: 1.4rem;
+        line-height: 3.5rem;
+    }
+}
+
+/* For Small screens and laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html {
+        font-size: 62.5%;
+    }
+    /* Navigation Bar CSS Starts here */
+    .navbar {
+        padding: 0rem 6rem 0rem 6rem;
+        display: flex;
+        width: 100%;
+        height: 6rem;
+        z-index: 1;
+        position: fixed;
+        background-color: #f5f5f5;
+    }
+    .logo {
+        font-family: "Baloo Bhai 2", cursive;
+        font-size: 3.2rem;
+        font-weight: 600;
+        color: #4abdac;
+    }
+    .logo span {
+        color: #025464;
+    }
+    .logo p {
+        margin-bottom: 0rem;
+    }
+    .pages {
+        margin: 0rem auto;
+    }
+    .pages ul {
+        margin-bottom: 0rem;
+    }
+    .pages li {
+        list-style: none;
+    }
+    .pages li a {
+        padding: 0rem 1.2rem;
+        text-decoration: none;
+        color: black;
+        font-size: 1.6rem;
+    }
+    .pages li a:hover {
+        font-weight: 500;
+        font-size: 1.8rem;
+    }
+
+    .authentication {
+        font-size: 2.8rem;
+        font-family: "Baloo Bhai 2", cursive;
+        font-weight: 30rem;
+        position: relative;
+        color: #4abdac;
+        top: 1rem;
+    }
+    .navbar .bars {
+        display: none;
+    }
+    .bars-icon {
+        font-size: 2rem;
+        color: #025464;
+    }
+
+    /* Navigation Bar CSS ends here */
+
+    /* Footer CSS starts here*/
+    .footer {
+        width: 100%;
+        height: 24rem;
+        background-color: #025464;
+    }
+    .footer p {
+        text-align: center;
+        color: #f5f5f5;
+        padding-top: 2rem;
+        font-size: 1.2rem;
+    }
+
+    /* Footer ends here */
+
+    /* Home Page starts here */
+
+    /* landing area */
+    .landing_page {
+        width: 100%;
+        height: 57.2rem;
+        background-image: url(/img/bg2.png);
+        background-size: cover;
+        /* background-color: #d2e9e9; */
+    }
+    .hero_text h2 {
+        /* font-family: "Baloo Bhai 2", cursive;
+      font-family: "Roboto", sans-serif; */
+        font-size: 5rem;
+        color: #4abdac;
+        padding: 22rem 0rem 0rem 12rem;
+        margin-bottom: 0rem;
+        font-weight: 500;
+    }
+    .under_hero {
+        font-family: "Baloo Bhai 2", cursive;
+        font-size: 2.4rem;
+        color: #025464;
+        letter-spacing: 0.3rem;
+        padding: 0rem 0rem 0rem 12rem;
+        animation: typing 8s, cursor 0.4s step-end infinite alternate;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    @keyframes cursor {
+        50% {
+            border-color: transparent;
+        }
+    }
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+    }
+    .landing_page a {
+        margin-left: 12rem;
+        padding: 1rem;
+        background-color: #025464;
+        border: none;
+        font-size: 1.6rem;
+    }
+    .landing_page a:hover {
+        background-color: #4abdac;
+    }
+    .landing_page a:active {
+        background-color: #4abdac;
+    }
+
+    /* Landing area ends */
+
+    /* Services */
+
+    .services .title {
+        text-align: center;
+        justify-content: center;
+        background-color: #f5f5f5;
+        padding: 0.8rem 0rem;
+        font-size: 2.4rem;
+        font-family: "Baloo Bhai 2", cursive;
+        color: #4abdac;
+        width: 22rem;
+        margin: 3rem auto;
+    }
+    .services .content .card {
+        z-index: -1;
+        width: 25rem;
+        height: 26rem;
+        margin: 3rem;
+    }
+    .services .content {
+        margin: 3.2rem 10rem;
+        font-size: 1.4rem;
+    }
+    .card-image-top {
+        height: 20rem;
+    }
+
+    /* Services end here */
+
+    /* Horizontal line under services section */
+
+    .line {
+        height: 0.1rem;
+        background-color: #c8c2bc;
+        margin: 1rem 16rem;
+    }
+
+    /* Blogs Section starts here */
+
+    .blogs .title {
+        text-align: center;
+        width: 22rem;
+        margin: 3rem auto;
+        background-color: #f5f5f5;
+        padding: 0.8rem 0rem;
+        font-size: 2.4rem;
+        font-family: "Baloo Bhai 2", cursive;
+        color: #4abdac;
+    }
+    .blogs .content .image img {
+        width: 25rem;
+        height: 25rem;
+        border-radius: 0.5rem;
+    }
+    .blogs .content {
+        margin: 3.2rem 10rem;
+    }
+    .blogs .content .blog-control {
+        margin-bottom: 4rem;
+    }
+    .blogs .content .blog {
+        display: flex;
+    }
+    .blogs .content .blog-content {
+        padding-left: 2.4rem;
+    }
+    .blogs .content .blog-content .blog-title {
+        font-size: 2.2rem;
+        font-weight: 500;
+        color: #025464;
+    }
+    .blogs .content .blog-content .blog-article {
+        padding-top: 1rem;
+        height: 18.6rem;
+        font-size: 1.4rem;
+        display: block; /* or inline-block */
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        overflow: hidden;
+        max-height: 18rem;
+        line-height: 2.4rem;
+    }
+    .blogs .content .blog-content .btn {
+        background-color: #4abdac;
+        border: none;
+        padding-left: 2.8rem;
+        padding-right: 2.8rem;
+        font-size: 1.6rem;
+    }
+    /* Blogs section ends here */
+
+    /* Clinic Schedule  */
+    .schedule {
+        margin-bottom: 10rem;
+    }
+    .schedule .title {
+        text-align: center;
+        width: 22rem;
+        margin: 3rem auto;
+        background-color: #f5f5f5;
+        padding: 0.8rem 0rem;
+        font-size: 2.4rem;
+        font-family: "Baloo Bhai 2", cursive;
+        color: #4abdac;
+    }
+    .schedule .table {
+        width: 91.2rem;
+        margin: 1rem 10rem;
+        padding-right: 10rem;
+    }
+    .schedule .table thead {
+        background-color: #4abdac;
+        font-size: 1.4rem;
+        line-height: 3.5rem;
+    }
+    .schedule .table tbody {
+        background-color: #f5f5f5;
+        font-size: 1.4rem;
+        line-height: 3.5rem;
+    }
+}
+
+/* For Desktops and Large Screens */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html {
+        font-size: 62.5%;
+    }
+    /* Navigation Bar CSS Starts here */
+    .navbar {
+        padding: 0rem 6rem 0rem 6rem;
+        display: flex;
+        width: 100%;
+        height: 6rem;
+        z-index: 1;
+        position: fixed;
+        background-color: #f5f5f5;
+    }
+    .logo {
+        font-family: "Baloo Bhai 2", cursive;
+        font-size: 3.2rem;
+        font-weight: 600;
+        color: #4abdac;
+    }
+    .logo span {
+        color: #025464;
+    }
+    .logo p {
+        margin-bottom: 0rem;
+    }
+    .pages {
+        margin: 0rem auto;
+    }
+    .pages ul {
+        margin-bottom: 0rem;
+    }
+    .pages li {
+        list-style: none;
+    }
+    .pages li a {
+        padding: 0rem 1.2rem;
+        text-decoration: none;
+        color: black;
+        font-size: 1.6rem;
+    }
+    .pages li a:hover {
+        font-weight: 500;
+        font-size: 1.8rem;
+    }
+
+    .authentication {
+        font-size: 2.8rem;
+        font-family: "Baloo Bhai 2", cursive;
+        font-weight: 30rem;
+        position: relative;
+        color: #4abdac;
+        top: 1rem;
+    }
+    .navbar .bars {
+        display: none;
+    }
+    .bars-icon {
+        font-size: 2rem;
+        color: #025464;
+    }
+
+    /* Navigation Bar CSS ends here */
+
+    /* Footer CSS starts here*/
+    .footer {
+        width: 100%;
+        height: 24rem;
+        background-color: #025464;
+    }
+    .footer p {
+        text-align: center;
+        color: #f5f5f5;
+        padding-top: 2rem;
+        font-size: 1.2rem;
+    }
+
+    /* Footer ends here */
+
+    /* Home Page starts here */
+
+    /* landing area */
+    .landing_page {
+        width: 100%;
+        height: 57.2rem;
+        background-image: url(/img/bg2.png);
+        background-size: cover;
+        /* background-color: #d2e9e9; */
+    }
+    .hero_text h2 {
+        /* font-family: "Baloo Bhai 2", cursive;
+      font-family: "Roboto", sans-serif; */
+        font-size: 5rem;
+        color: #4abdac;
+        padding: 22rem 0rem 0rem 12rem;
+        margin-bottom: 0rem;
+        font-weight: 500;
+    }
+    .under_hero {
+        font-family: "Baloo Bhai 2", cursive;
+        font-size: 2.4rem;
+        color: #025464;
+        letter-spacing: 0.3rem;
+        padding: 0rem 0rem 0rem 12rem;
+        animation: typing 8s, cursor 0.4s step-end infinite alternate;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    @keyframes cursor {
+        50% {
+            border-color: transparent;
+        }
+    }
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+    }
+    .landing_page a {
+        margin-left: 12rem;
+        padding: 1rem;
+        background-color: #025464;
+        border: none;
+        font-size: 1.6rem;
+    }
+    .landing_page a:hover {
+        background-color: #4abdac;
+    }
+    .landing_page a:active {
+        background-color: #4abdac;
+    }
+
+    /* Landing area ends */
+
+    /* Services */
+
+    .services .title {
+        text-align: center;
+        justify-content: center;
+        background-color: #f5f5f5;
+        padding: 0.8rem 0rem;
+        font-size: 2.4rem;
+        font-family: "Baloo Bhai 2", cursive;
+        color: #4abdac;
+        width: 22rem;
+        margin: 3rem auto;
+    }
+    .services .content .card {
+        z-index: -1;
+        width: 25rem;
+        height: 26rem;
+        margin: 3rem;
+    }
+    .services .content {
+        margin: 3.2rem 10rem;
+        font-size: 1.4rem;
+    }
+    .card-image-top {
+        height: 20rem;
+    }
+
+    /* Services end here */
+
+    /* Horizontal line under services section */
+
+    .line {
+        height: 0.1rem;
+        background-color: #c8c2bc;
+        margin: 1rem 16rem;
+    }
+
+    /* Blogs Section starts here */
+
+    .blogs .title {
+        text-align: center;
+        width: 22rem;
+        margin: 3rem auto;
+        background-color: #f5f5f5;
+        padding: 0.8rem 0rem;
+        font-size: 2.4rem;
+        font-family: "Baloo Bhai 2", cursive;
+        color: #4abdac;
+    }
+    .blogs .content .image img {
+        width: 25rem;
+        height: 25rem;
+        border-radius: 0.5rem;
+    }
+    .blogs .content {
+        margin: 3.2rem 10rem;
+    }
+    .blogs .content .blog-control {
+        margin-bottom: 4rem;
+    }
+    .blogs .content .blog {
+        display: flex;
+    }
+    .blogs .content .blog-content {
+        padding-left: 2.4rem;
+    }
+    .blogs .content .blog-content .blog-title {
+        font-size: 2.2rem;
+        font-weight: 500;
+        color: #025464;
+    }
+    .blogs .content .blog-content .blog-article {
+        padding-top: 1rem;
+        height: 18.6rem;
+        font-size: 1.4rem;
+        display: block; /* or inline-block */
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        overflow: hidden;
+        max-height: 18rem;
+        line-height: 2.4rem;
+    }
+    .blogs .content .blog-content .btn {
+        background-color: #4abdac;
+        border: none;
+        padding-left: 2.8rem;
+        padding-right: 2.8rem;
+        font-size: 1.6rem;
+    }
+    /* Blogs section ends here */
+
+    /* Clinic Schedule  */
+    .schedule {
+        margin-bottom: 10rem;
+    }
+    .schedule .title {
+        text-align: center;
+        width: 22rem;
+        margin: 3rem auto;
+        background-color: #f5f5f5;
+        padding: 0.8rem 0rem;
+        font-size: 2.4rem;
+        font-family: "Baloo Bhai 2", cursive;
+        color: #4abdac;
+    }
+    .schedule .table {
+        width: 91.2rem;
+        margin: 1rem 10rem;
+        padding-right: 10rem;
+    }
+    .schedule .table thead {
+        background-color: #4abdac;
+        font-size: 1.4rem;
+        line-height: 3.5rem;
+    }
+    .schedule .table tbody {
+        background-color: #f5f5f5;
+        font-size: 1.4rem;
+        line-height: 3.5rem;
+    }
+}
+
+/* For Extra Large Screens */
+@media only screen and (min-width: 1201px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html {
+        font-size: 62.5%;
+    }
+    /* Navigation Bar CSS Starts here */
+    .navbar {
+        padding: 0rem 6rem 0rem 6rem;
+        display: flex;
+        width: 100%;
+        height: 6rem;
+        z-index: 1;
+        position: fixed;
+        background-color: #f5f5f5;
+    }
+    .logo {
+        font-family: "Baloo Bhai 2", cursive;
+        font-size: 3.2rem;
+        font-weight: 600;
+        color: #4abdac;
+    }
+    .logo span {
+        color: #025464;
+    }
+    .logo p {
+        margin-bottom: 0rem;
+    }
+    .pages {
+        margin: 0rem auto;
+    }
+    .pages ul {
+        margin-bottom: 0rem;
+    }
+    .pages li {
+        list-style: none;
+    }
+    .pages li a {
+        padding: 0rem 1.2rem;
+        text-decoration: none;
+        color: black;
+        font-size: 1.6rem;
+    }
+    .pages li a:hover {
+        font-weight: 500;
+        font-size: 1.8rem;
+    }
+
+    .authentication {
+        font-size: 2.8rem;
+        font-family: "Baloo Bhai 2", cursive;
+        font-weight: 30rem;
+        position: relative;
+        color: #4abdac;
+        top: 1rem;
+    }
+    .navbar .bars {
+        display: none;
+    }
+    .bars-icon {
+        font-size: 2rem;
+        color: #025464;
+    }
+
+    /* Navigation Bar CSS ends here */
+
+    /* Footer CSS starts here*/
+    .footer {
+        width: 100%;
+        height: 24rem;
+        background-color: #025464;
+    }
+    .footer p {
+        text-align: center;
+        color: #f5f5f5;
+        padding-top: 2rem;
+        font-size: 1.2rem;
+    }
+
+    /* Footer ends here */
+
+    /* Home Page starts here */
+
+    /* landing area */
+    .landing_page {
+        width: 100%;
+        height: 57.2rem;
+        background-image: url(/img/bg2.png);
+        background-size: cover;
+        /* background-color: #d2e9e9; */
+    }
+    .hero_text h2 {
+        /* font-family: "Baloo Bhai 2", cursive;
+      font-family: "Roboto", sans-serif; */
+        font-size: 5rem;
+        color: #4abdac;
+        padding: 22rem 0rem 0rem 12rem;
+        margin-bottom: 0rem;
+        font-weight: 500;
+    }
+    .under_hero {
+        font-family: "Baloo Bhai 2", cursive;
+        font-size: 2.4rem;
+        color: #025464;
+        letter-spacing: 0.3rem;
+        padding: 0rem 0rem 0rem 12rem;
+        animation: typing 8s, cursor 0.4s step-end infinite alternate;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    @keyframes cursor {
+        50% {
+            border-color: transparent;
+        }
+    }
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+    }
+    .landing_page a {
+        margin-left: 12rem;
+        padding: 1rem;
+        background-color: #025464;
+        border: none;
+        font-size: 1.6rem;
+    }
+    .landing_page a:hover {
+        background-color: #4abdac;
+    }
+    .landing_page a:active {
+        background-color: #4abdac;
+    }
+
+    /* Landing area ends */
+
+    /* Services */
+
+    .services .title {
+        text-align: center;
+        justify-content: center;
+        background-color: #f5f5f5;
+        padding: 0.8rem 0rem;
+        font-size: 2.4rem;
+        font-family: "Baloo Bhai 2", cursive;
+        color: #4abdac;
+        width: 22rem;
+        margin: 3rem auto;
+    }
+    .services .content .card {
+        z-index: -1;
+        width: 25rem;
+        height: 26rem;
+        margin: 3rem;
+    }
+    .services .content {
+        margin: 3.2rem 10rem;
+        font-size: 1.4rem;
+    }
+    .card-image-top {
+        height: 20rem;
+    }
+
+    /* Services end here */
+
+    /* Horizontal line under services section */
+
+    .line {
+        height: 0.1rem;
+        background-color: #c8c2bc;
+        margin: 1rem 16rem;
+    }
+
+    /* Blogs Section starts here */
+
+    .blogs .title {
+        text-align: center;
+        width: 22rem;
+        margin: 3rem auto;
+        background-color: #f5f5f5;
+        padding: 0.8rem 0rem;
+        font-size: 2.4rem;
+        font-family: "Baloo Bhai 2", cursive;
+        color: #4abdac;
+    }
+    .blogs .content .image img {
+        width: 25rem;
+        height: 25rem;
+        border-radius: 0.5rem;
+    }
+    .blogs .content {
+        margin: 3.2rem 10rem;
+    }
+    .blogs .content .blog-control {
+        margin-bottom: 4rem;
+    }
+    .blogs .content .blog {
+        display: flex;
+    }
+    .blogs .content .blog-content {
+        padding-left: 2.4rem;
+    }
+    .blogs .content .blog-content .blog-title {
+        font-size: 2.2rem;
+        font-weight: 500;
+        color: #025464;
+    }
+    .blogs .content .blog-content .blog-article {
+        padding-top: 1rem;
+        height: 18.6rem;
+        font-size: 1.4rem;
+        display: block; /* or inline-block */
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        overflow: hidden;
+        max-height: 18rem;
+        line-height: 2.4rem;
+    }
+    .blogs .content .blog-content .btn {
+        background-color: #4abdac;
+        border: none;
+        padding-left: 2.8rem;
+        padding-right: 2.8rem;
+        font-size: 1.6rem;
+    }
+    /* Blogs section ends here */
+
+    /* Clinic Schedule  */
+    .schedule {
+        margin-bottom: 10rem;
+    }
+    .schedule .title {
+        text-align: center;
+        width: 22rem;
+        margin: 3rem auto;
+        background-color: #f5f5f5;
+        padding: 0.8rem 0rem;
+        font-size: 2.4rem;
+        font-family: "Baloo Bhai 2", cursive;
+        color: #4abdac;
+    }
+    .schedule .table {
+        width: 91.2rem;
+        margin: 1rem 10rem;
+        padding-right: 10rem;
+    }
+    .schedule .table thead {
+        background-color: #4abdac;
+        font-size: 1.4rem;
+        line-height: 3.5rem;
+    }
+    .schedule .table tbody {
+        background-color: #f5f5f5;
+        font-size: 1.4rem;
+        line-height: 3.5rem;
+    }
+}
